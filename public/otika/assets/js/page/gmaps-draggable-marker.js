@@ -1,7 +1,7 @@
 "use strict";
 
-var input_lat = $("#input-lat"), // latitude input text
-  input_lng = $("#input-lng"), // longitude input text
+var input_lat = $("#lat"), // latitude input text
+  input_lng = $("#lng"), // longitude input text
   map = new GMaps({ // init map
     div: '#map',
     lat: 23.014711,

@@ -80,22 +80,17 @@
             <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Koordinat</label>
             <div class="col-sm-12 col-md-7">
             <div class="input-group mb-3">
-            <input name="koordinat" id="koordinat" type="text" class="form-control" placeholder="Masukkan koordinat" value="{{ old('koordinat')}}" required>
 
-            <div>
-                <button  class="btn btn-primary" target="_blank" onclick="window.open('https://www.google.co.id/maps/@-7.644258,111.5349059,15z','_blank');" type="button">Maps</button>
-            </div>
             <div class="section-body">
             <div class="row">
               <div class="col-12">
                 <div class="">
-
                   <div class="card-body">
                     <div class="row mb-4">
                       <div class="col-12 col-md-12 col-lg-12">
                         <div class="input-group">
-                          <input type="text" class="form-control" id="input-lat" placeholder="Latitude">
-                          <input type="text" class="form-control" id="input-lng" placeholder="Longitude">
+                          <input type="text" class="form-control" id="lat" name="lat"  placeholder="Latitude">
+                          <input type="text" class="form-control" id="lng" name="lng" placeholder="Longitude">
                         </div>
                       </div>
                     </div>

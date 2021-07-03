@@ -53,7 +53,7 @@ class wisatakontrol extends Controller
             'deskripsi'=>$request->deskripsi,
             'alamat'=>$request->alamat,
             'maps'=>$request->maps,
-            'koordinat'=>$request->koordinat,
+            'koordinat'=>$request->lat.','.$request->lng,
             'youtube_profil'=>$request->youtube_profil,
             'jam_buka'=>$request->jam_buka,
             'jam_tutup'=>$request->jam_tutup,
